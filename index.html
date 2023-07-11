@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bright Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link type="image/x-icon" rel="icon" href="imageee/Bright-logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<style>
+.con {
+  position: relative;
+
+}
+
+.overlay {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height:100%;
+  width:100%;
+  opacity:0;
+  transition:.5s ease;
+  background-color:RGBA(0,140,186,0.5)
+
+}
+
+.con:hover .overlay {
+
+   opacity: 1;
+}
+
+.text {
+   color:white;
+   font: size 20px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform:translate(-50%, -50%);
+   text-align:center
+
+
+
+
+
+}
+
+
+
+
+
+
+</style>
+
+
+
+
+  </head>
+  <body>
+
+<!---nav bar-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary pb-0 pt-0 sticky-lg-top">
+    <div class="container-fluid navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="imageee/Bright-logo.png" height="60px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Portfolio
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Wedding</a></li>
+              <li><a class="dropdown-item" href="#">Baby Bum</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Other Event</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Book a session</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!--slider-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-mdb-interval="false" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imageee/slider1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imageee/slider2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imageee/slider3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container">
+<h1 class="text-center p-5 mb-2 mt-5">Welcom To My World</h1>
+<p class="text-center">
+Step into a world of creativity, innovation, and boundless possibilities. Whether you're an aspiring artist, a passionate designer, or simply someone who appreciates the beauty of artistic expression, you've come to the right place.
+    
+    Our studio is a hub where ideas take shape, colors come to life, and imagination knows no limits. We are dedicated to providing a platform for artists to thrive and showcase their talents, as well as a haven for art enthusiasts to discover, appreciate, and connect with the vibrant world of creativity.
+    
+    Explore our website to uncover a treasure trove of stunning artworks, ranging from mesmerizing paintings and intricate sculptures to captivating digital art and awe-inspiring installations. Dive into our blog to gain insights from seasoned artists, learn about the latest trends in the art world, and get inspired by stories of artistic journeys.</p>
+
+<button type="button" class="btn btn-primary btn-sm mt-2">Book a section now</button>
+
+
+  </div>
+<!--our work-->
+<div class="container">
+ <div class="row">   
+<h1 class="text-center fs-1 p-5 mt-5">It's Our Work</h1>
+<div class="col">
+<div class="card">
+    <img src="imageee/slider4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Portraits</h5>
+      <p class="card-text">Dive into our blog to gain insights from seasoned artists, learn about the latest trends in the art world.</p>
+      <a href="#" class="btn btn-primary">Book a Session</a>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="imageee/slider5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Fashions</h5>
+      <p class="card-text">We are dedicated to providing a platform for artists to thrive and showcase their talents.</p>
+      <a href="#" class="btn btn-primary">Book a Session</a>
+    </div>
+  </div>
+  </div>
+  <div class="col">
+  <div class="card">
+    <img src="imageee/slider6.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Commercial</h5> </div>
+      <p class="card-text">Our studio is a hub where ideas take shape, colors come to life, and imagination knows no limits. </p>
+      <a href="#" class="btn btn-primary">Book a Session</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+</div>
+
+<!--about-->
+<div class="container-fluid">
+<a href="https://www.instagram.com/abbeybright51/" target="_blank"><div class="row mt-5 pt-0 gx-0 con">
+<div class="col"><img src="imageee/slider7.jpg" class="img-thumbnail" alt=",,,"></div>
+<div class="col"><img src="imageee/slider10.jpg" class="img-thumbnail" alt=",,,"></div>
+<div class="col"><img src="imageee/slider9.jpg" class="img-thumbnail" alt=",,,"></div>
+<div class="col"><img src="imageee/slider12.jpg" class="img-thumbnail" alt=",,,"></div>
+<div class="col"><img src="imageee/slider11.jpg" class="img-thumbnail" alt=",,,"></div>
+
+<div class="overlay">
+
+<div class="text"><i class="bi bi-instagram"></i><br>Instagram<br>@abbeybright51</div>
+
+</div>
+
+
+
+</div>
+
+</a>
+
+
+
+
+
+
+
+
+
+</div>
+<!--contact-->
+
+<div class="container">
+<div class="row">
+<div class="col">
+    <h1 class="text-center fs-1 p-5 mt-5">Contact Us</h1> 
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email <address></address></label>
+          <input type="email" class="form-control" id="exampleInputPassword1">We'll never share your email with anyone else.
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+       
+       
+
+
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Job Type</label>
+         <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="Commercial/Advertising">Commercial/Advertising</option>
+        <option value="Event">Event</option>
+        <option value="Family Portrait">Family Portrait</option>
+        <option value="Fashions">Fashions</option>
+        <option value="Headshot">Headshot</option>
+        <option value="Maternity">Maternity</option>
+        <option value="Model Portfolio">Model Portfolio</option>
+        <option value="New Born">New Born</option>
+        <option value="Pet">Pet</option>
+        <option value="Portrait">Portrait</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Real Estate & Architecture">Real Estate & Architecture</option>
+        <option value="Others">Others</option>
+      </select>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Main Shoot Date</label>
+        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Message  (tell us more about your enquiry)
+        </label>
+        <textarea class="form-control"></textarea> 
+      </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me</label>
+      </div>
+    <button type="tel" class="btn btn-primary">Submit</button>
+</form>
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<!--footer-->
+
+<footer class="container-fluid bg-dark pb-5 pt-5 text-white ps-5 mt-3">
+<div class="row">
+<div class="col"><ul class="list-unstyled">
+  <h1 class="fs-5">Quick Link </h1>
+  <li class="">Home</li>
+  <li class="">About</li>
+  <li class="">Blog</li>
+ 
+</ul></div>
+<div class="col"><ul class="list-unstyled">
+  <h1 class="fs-5">Portfolio</h1>
+  <li class="">An item</li>
+  <li class="">A second item</li>
+  <li class="">A third item</li>
+  <li class="">A fourth item</li>
+  <li class="">And a fifth one</li>
+</ul></div>
+<div class="col"><ul class="list-unstyled">
+  <h1 class="fs-6">Book a Session</h1>
+  <li class="">An item</li>
+  <li class="">A second item</li>
+  <li class="">A third item</li>
+  <li class="">A fourth item</li>
+  <li class="">And a fifth one</li>
+</ul></div>
+<div class="col-lg-6">
+  <h1 class="fs-5">Subcribe to Newsletter</h1>
+  <form class="d-flex mt-3 mb-3" role="search">
+    <input class="form-control me-2 w-50 "type="search" placeholder="Enter your email address" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">subscribe</button>
+  </form>
+  Follow Us<br><i class="bi bi-facebook me-2"></i>
+  <i class="bi bi-instagram me-2"></i>
+  <i class="bi bi-twitter me-2"></i>
+  <i class="bi bi-tiktok me-2"></i>
+  <i class="bi bi-youtube me-2"></i>
+  <i class="bi bi-linkedin"></i>
+ </div>
+
+</div>
+</footer>
+
+<div class="row bg-secondary ps-5 text-center">
+  &copy; 2023. All Right Reserved
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
